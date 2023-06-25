@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.0ea7c21a.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.0992ef8d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.cc7c5436.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.6b47d9a0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.7e6319f2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.66e1bd68.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.b34bb62d.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="bg-black flex-1 justify-center items-center h-screen w-screen text-gray-300"><h1 class="font-bold font-mono text-center text-8xl " data-svelte-h="svelte-16l31hw">Bienvenido!</h1> <button>You pressed me 0 times!</button></div> 
+			
+			<script>
+				{
+					__sveltekit_3s5u42 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.0992ef8d.js"),
+						import("./_app/immutable/entry/app.6b47d9a0.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
